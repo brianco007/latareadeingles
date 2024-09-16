@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^latareadeingles.com [NC]
+RewriteRule ^(.*)$ https://www.latareadeingles.com/$1 [L,R=301, NC]
+</IfModule>
